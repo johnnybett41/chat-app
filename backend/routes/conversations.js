@@ -3,7 +3,7 @@ const router = express.Router();
 const auth = require('../middleware/auth');
 const Conversation = require('../models/Conversation');
 const Message = require('../models/Message');
-const User = require('../models/User');
+const User = require('../models/user');
 const { conversationCreateValidators, addMembersValidators, getMessagesValidators } = require('../middleware/validators');
 
 // Create a conversation (1-to-1 or group)
