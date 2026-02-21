@@ -4,7 +4,7 @@ const getApiUrl = () => {
         return 'http://localhost:5000';
     }
     if (window.location.hostname.includes('onrender.com')) {
-        return 'https://chat-app-backend.onrender.com';
+        return 'https://chat-app-backend-89mx.onrender.com';
     }
     return 'http://localhost:5000';
 };
